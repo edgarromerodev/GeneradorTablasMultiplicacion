@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="background"></div>
-    <div class="container">
-        <h1 class="title">Generador de Tablas de Multiplicar</h1>
-        <input type="number" id="numberInput" placeholder="Ingresa un número" >
-        <button id="generateButton">Generar Tabla</button>
-        <button id="clearButton">Limpiar Tabla</button>
-        <div id="tableContainer">
-            
+    <h1 class="title">Generador de Tablas de Multiplicar</h1>
+    <div class="container">   
+        <!-- Contenedor de entrada y botones alineados en la misma línea -->
+        <div class="input-container">
+            <input type="number" id="numberInput" placeholder="Ingresa un número"  >
+           
+            <button id="botonGenerar"><i class="fas fa-table"></i> CrearTabla</button>
+            <button id="botonLimpiar">Limpiar Tabla</button>
         </div>
     </div>
+    <div id="tableContainer" ></div>
+
     <script src="script.js"></script>
 </body>
 </html>
